@@ -20,6 +20,7 @@ then
     git clone https://github.com/raphael-development/android_vendor_nxp_opensource_frameworks -b lineage-17.0 vendor/nxp/opensource/commonsys/frameworks
     git clone https://github.com/raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc -b lineage-17.0 vendor/nxp/opensource/commonsys/packages$
     
+    . build/envsetup.sh
     repopick -t telephony ten-qc-telephony-ext fod-stuff
     
     cd frameworks/base
