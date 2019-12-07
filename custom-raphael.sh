@@ -44,9 +44,9 @@ then
     rm -rf vendor/nxp/opensource/commonsys/frameworks
     rm -rf vendor/nxp/opensource/commonsys/packages/apps/Nfc
     git clone https://github.com/raphael-development/android_vendor_nxp_opensource_halimpl -b lineage-17.0-sn100x vendor/nxp/opensource/sn100x/halimpl
-    git clone https://github.com/raphael-development/android_vendor_nxp_opensource_external_libnfc-nci -b lineage-17.0 vendor/nxp/opensource/commonsys/extern$
+    git clone https://github.com/raphael-development/android_vendor_nxp_opensource_external_libnfc-nci -b lineage-17.0 vendor/nxp/opensource/commonsys/external/libnfc-nci
     git clone https://github.com/raphael-development/android_vendor_nxp_opensource_frameworks -b lineage-17.0 vendor/nxp/opensource/commonsys/frameworks
-    git clone https://github.com/raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc -b lineage-17.0 vendor/nxp/opensource/commonsys/packages$
+    git clone https://github.com/raphael-development/android_vendor_nxp_opensource_packages_apps_Nfc -b lineage-17.0 vendor/nxp/opensource/commonsys/packages/apps/Nfc
     
     repopick -t telephony ten-qc-telephony-ext fod-stuff
     
